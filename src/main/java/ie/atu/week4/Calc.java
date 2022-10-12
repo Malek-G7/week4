@@ -5,10 +5,10 @@ public class Calc {
     public static void main( String[] args ) {
       divide();
       subtract();
+      add();
     }
 
-public static void divide()
-    {
+    public static void divide() {
         System.out.println("Please enter yur first number :");
         Scanner inputs = new Scanner(System.in);
         float firstNumber = inputs.nextInt();
@@ -16,9 +16,9 @@ public static void divide()
         float secondNumber = inputs.nextInt();
         float total = firstNumber/secondNumber;
         System.out.println("The total is " + total);
-}
-    public static void subtract()
-    {
+    }
+
+    public static void subtract() {
         System.out.println("Enter your first number: ");
         Scanner inputs = new Scanner(System.in);
         int firstNumber = inputs.nextInt();
@@ -29,8 +29,9 @@ public static void divide()
         int total = firstNumber - secondNumber;
         System.out.println("Total: " + total);
 
-}
-public static void add(){
+    }
+
+    public static void add() {
 
         System.out.printf("adding method");
         System.out.println("enter your first number");
