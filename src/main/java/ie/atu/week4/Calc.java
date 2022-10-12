@@ -12,6 +12,10 @@ public static void divide()
         System.out.println("Please enter yur first number :");
         Scanner inputs = new Scanner(System.in);
         float firstNumber = inputs.nextInt();
+        System.out.println("Please enter yur second number :");
+        float secondNumber = inputs.nextInt();
+        float total = firstNumber/secondNumber;
+        System.out.println("The total is " + total);
 }
     public static void subtract()
     {
@@ -37,12 +41,6 @@ public static void add(){
         int total = firstNumber + secondNumber;
         System.out.println("The total is " + total);
 
-
-        System.out.println("Please enter yur second number :");
-        float secondNumber = inputs.nextInt();
-
-        float total = firstNumber/secondNumber;
-        System.out.println("The total is " + total);
     }
 
 }
