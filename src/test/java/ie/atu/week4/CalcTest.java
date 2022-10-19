@@ -30,5 +30,9 @@ public class CalcTest {
     void testMultiply(){
         assertEquals(6,myCalc.multiply(3,2));
     }
+    @Test
+    void testDivide(){
+        assertEquals(3,myCalc.divide(6,2));
+    }
 
 }
